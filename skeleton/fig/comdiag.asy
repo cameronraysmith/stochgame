@@ -1,0 +1,15 @@
+size(4cm);
+pair A, A_prime, B, B_prime;
+A=(0,1); A_prime=(1,1);
+B=(0,0); B_prime=(1,0);
+label("$A$",A);
+label("$B$",B);
+label("$A^{\prime}$",A_prime);
+label("$B^{\prime}$",B_prime);
+draw("$p$",(0,.9)--(0,.1),Arrow);
+draw("$p^{\prime}$",(1,.9)--(1,.1),align=LeftSide,Arrow);
+draw("$q$",(.1,1)--(.9,1),LeftSide,Arrow);
+draw("$q^{\prime}$",(.1,0)--(.9,0),Arrow);
+draw(arc((.5,.5),.45,90,0),red,Arrow);
+draw(arc((.5,.5),.45,-90,-180),red,Arrow);
+//shipout(bbox(2mm,invisible),format="pdf");
