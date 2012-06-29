@@ -1,4 +1,30 @@
 #################
+## Latex
+#################
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pre
+*.synctex.gz
+*.toc
+**/*.aux
+**/*.bbl
+**/*.blg
+**/*.brf
+**/*.fdb_latexmk
+**/*.fls
+**/*.log
+**/*.out
+**/*.pre
+**/*.synctex.gz
+**/*.toc
+
+#################
 ## Eclipse
 #################
 
